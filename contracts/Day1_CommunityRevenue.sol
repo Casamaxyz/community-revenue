@@ -17,6 +17,7 @@ contract CommunityRevenue is ERC721URIStorage, Ownable {
     Counters.Counter private _tokenIds;
 
     // Address of the Kernel Public Goods Payout Address on Optimsm
+    // https://app.optimism.io/retropgf-discovery/0xC728DEa8B2972E6e07493BE8DC2F0314F7dC3E98
     address payable public KernelTreasury = payable(0x70997970C51812dc3A010C7d01b50e0d17dc79C8);
 
     // Address of the Casama Multsig on Optimism
